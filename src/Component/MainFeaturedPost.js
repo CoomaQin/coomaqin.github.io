@@ -147,7 +147,7 @@ export default function MainFeaturedPost(props) {
                 {post.date.toString()}
               </Typography>
             </div>
-            <Button variant="text" size="small" className={classes.btn} href={post.path}>Learn More</Button>
+            <Button variant="text" size="small" className={classes.btn} href={`#${post.path}`}>Learn More</Button>
           </Grid>
         </Grid>
       </Grid>

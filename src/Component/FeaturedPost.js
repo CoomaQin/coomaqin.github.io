@@ -129,7 +129,7 @@ export default function FeaturedPost(props) {
         <Typography className={classes.date} variant="subtitle1">
           {post.date.toString()}
         </Typography>
-        <Button variant="text" size="small" className={classes.btn} href={post.path}>Learn More</Button>
+        <Button variant="text" size="small" href="#/igct" className={classes.btn} >Learn More</Button>
       </Grid>
     </Paper>
   ) : (
@@ -156,7 +156,7 @@ export default function FeaturedPost(props) {
             <Typography className={classes.date} variant="subtitle1">
               {post.date.toString()}
             </Typography>
-            <Button variant="text" size="small" className={classes.btn} href={post.path}>Learn More</Button>
+            <Button variant="text" size="small" className={classes.btn} href={`#${post.path}`}>Learn More</Button>
           </Grid>
         </Grid>
       </Grid>

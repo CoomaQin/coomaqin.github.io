@@ -14,8 +14,8 @@ postData["post"] = [
         url: "https://raw.githubusercontent.com/CoomaQin/qhx-personal-website/master/src/data/igct.md"
     },
     {
-        title: "Tubie KTV --- A Home Karaoke System",
-        shortTitle: "Tubie KTV",
+        title: "Smart Train System",
+        shortTitle: "Innov train",
         type: "video",
         path: "/tubie",
         hashTags: ["Computer Vision", "AI", "Nvidia Jetson", "AWS"],

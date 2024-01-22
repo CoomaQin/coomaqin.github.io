@@ -1,14 +1,14 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import { BrowserRouter } from 'react-router-dom';
+import { HashRouter } from 'react-router-dom';
 import MainRoute from './Route';
 
-
+// https://github.com/orgs/community/discussions/64096
 ReactDOM.render(
-  <BrowserRouter>
+  <HashRouter>
     <div>
       <MainRoute />
     </div>
-  </BrowserRouter>,
+  </HashRouter>,
   document.querySelector('#root'),
 );
