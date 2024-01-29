@@ -17,7 +17,7 @@ postData["post"] = [
         title: "Smart Train System",
         shortTitle: "Innov train",
         type: "video",
-        path: "/tubie",
+        path: "/railhawk",
         hashTags: ["Computer Vision", "AI", "Nvidia Jetson", "AWS"],
         date: "Aug 2023",
         img: "https://s2.loli.net/2023/09/10/8vrEWMjcuilBZ21.png",
@@ -34,7 +34,7 @@ postData["post"] = [
         date: "Aug 2022",
         img: "https://s2.loli.net/2022/12/15/qBcC2ea7NvORLAX.png",
         video: "https://streamable.com/e/moyu0k?autoplay=1&nocontrols=1",
-        contentImg: ["https://s2.loli.net/2022/12/15/32subFlCQp8G5dn.png"],
+        contentImg: [],
         url: "https://raw.githubusercontent.com/CoomaQin/qhx-personal-website/master/src/data/tubie.md"
     },
     {
